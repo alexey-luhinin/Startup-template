@@ -1,0 +1,82 @@
+.container{
+    margin: 0px auto;
+    width: 1600px;
+}
+
+.header{
+    width: 100%;
+    height: 725px;
+    background-image: url(images/header-background.gif);
+    background-repeat: no-repeat;
+}
+
+.header #logo{
+    float: left;
+    color: white;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-left: 225px;
+    padding-top: 40px;
+}
+
+.header #top-menu{
+    padding-top: 45px;
+    position: relative;
+    left: 440px;
+}
+
+.header #top-menu li{
+    display: inline;
+    padding: 0px 20px;
+}
+
+.header #top-menu li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.header #top-menu li a:hover{
+    border-bottom: 4px solid white;
+}
+
+.header #welcome-text{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    position: absolute;
+    left: 500px;
+    top: 310px;
+}
+
+.header #sub-welcome-text{
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 24px;
+    position: absolute;
+    left: 620px;
+    top: 390px;
+}
+
+.header #get-started-button{
+    border: 3px solid white;
+    width: 150px;
+    text-align: center;
+    position: absolute;
+    left: 750px;
+    top: 450px;
+}
+
+.header #get-started-button a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    padding: 15px;
+}
+
+.header #get-started-button a:hover{
+    color: yellow;
+}
